@@ -2,9 +2,11 @@
 PowerShell for IBM i provides sample IBM i PowerShell scripts for interacting with IBM i.
 
 ## Files
-```IbmiOdbcFunctions.psm1``` - Shared functions for connecting to IBM i via ODBC. Ideally this file should be located in the same directory as any PowerShell scripts.
+```IbmiOdbcFunctions.psm1```   
+Shared functions for connecting to IBM i via ODBC. Ideally this file should be located in the same directory as any PowerShell scripts.   
 
-```IbmiOdbcQueryToOutputFile.ps1``` - Run SQL ODBC query to select and export records to delimited PC file.   
+```IbmiOdbcQueryToOutputFile.ps1```    
+Run SQL ODBC query to select and export records to delimited PC file.   
 
 Example command line to run IbmiOdbcQueryToOutputFile.ps1:   
 ```
