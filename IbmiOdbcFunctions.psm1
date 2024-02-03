@@ -177,7 +177,13 @@ function dbExecQueryToDataTable {
 ## Returns $True=Success, $False=Error
 ##-------------------------------------------------------------------------------
 function dbExecQueryToOutputFile {
- Param($dbconnection,[string] $sqlquery,[string] $outputfilename,[string] $delim="|",$outputtofile,$outputheadings) 
+ Param($dbconnection,
+       [string] $sqlquery,
+       [string] $outputfilename,
+       [string] $delim="|",
+       $outputtofile,
+       $outputheadings
+      ) 
 
     try {
 
