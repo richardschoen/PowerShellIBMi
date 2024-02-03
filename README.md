@@ -1,6 +1,10 @@
 # IBM i PowerShell Samples
 PowerShell for IBM i provides sample IBM i PowerShell scripts for interacting with IBM i.
 
+These samples require the IBM i Access ODBC Driver to be installed on the Windows machine. 
+
+Ideally you should also use PowerShell 7 but these scripts should also work with older versions of PowerShell.
+
 ## Files
 ```IbmiOdbcFunctions.psm1```   
 Shared functions for connecting to IBM i via ODBC. Ideally this file should be located in the same directory as any PowerShell scripts.   
