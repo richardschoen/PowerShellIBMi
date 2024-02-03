@@ -3,5 +3,10 @@ PowerShell for IBM i provides sample IBM i PowerShell scripts for interacting wi
 
 ## Files
 ```IbmiOdbcFunctions.psm1``` - Shared functions for connecting to IBM i via ODBC.   
+
 ```IbmiOdbcQueryToOutputFile.ps1``` - Run SQL ODBC query to select and export records to delimited PC file.   
-```IbmiOdbcQueryToOutputFile_Run.bat``` - BAT file to run IbmiOdbcQueryToOutputFile.ps1 powershell script.
+
+Example command line to run IbmiOdbcQueryToOutputFile.ps1:   
+```
+pwsh IbmiOdbcQueryToOutputFile.ps1 -ibmihost "1.1.1.1" -ibmiuser "USER1" -ibmipass "PASS1" -sql "select * from qiws.qcustcdt" -outputfile "c:\temp\qcustcdt.txt"
+```
