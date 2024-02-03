@@ -1,6 +1,6 @@
 ##-------------------------------------------------------------------------------
 ## Desc: Connect to IBM i and Query Data or run commands using 
-##       IBM i Accesss/400 ODBC Driver.
+##       IBM i Access/400 ODBC Driver.
 ## Note when developing and testing, you can remove an already loaded module 
 ## you just made changes to using the following PowerShell commandlet call
 ## from the Windows PowerShell ISE Editor console:
